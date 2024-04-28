@@ -10,7 +10,7 @@ export default function Home(){
 
       <div className="w-[100%] h-[76vh] sm:h-[89vh] bg-[rgba(0,0,0,0.7)]">
         <header className="max-w-[1300px] mx-auto ">
-          <div className="grid sm:grid-cols-2 grid-cols-[30%_auto] sm:grid-cols-[30%_70%]  px-[10px] pt-3  sm:pt-1 ">
+          <div className="grid  grid-cols-[30%_auto] sm:grid-cols-[30%_70%]  px-[10px] pt-3  sm:pt-1 ">
             <figure className="">
               <img src="netflixlogo.jpg" className="w-[170px] sm:w-[189px] sm:" alt="" />
             </figure>
@@ -38,9 +38,9 @@ export default function Home(){
 
         </div>
         <div className="sm:max-w[700px] sm:max-w-[100%] mx-auto  ">
-          <form action="" className="sm:grid-cols-2 sm:grid-cols-[55%_auto] grid grid-cols-1 items-baseline gap-3  ">
+          <form action="" className="sm:grid-cols-[55%_auto] grid grid-cols-1 items-baseline gap-3  ">
                <input type="email" name="email" id="" placeholder="Email address" className="border-[1px] h-[47px]  sm:h-[58px] mx-12 sm:mx-0 sm:ml-[470px] pl-4 sm:pl-4 rounded-md border-[#8d8686] bg-[rgba(41,38,38,0.47)] " />
-               <Link href="" className="font-black text-white text-center   bg-[red] py-3 mt-1 sm:py-4 sm:mr-[520px] sm:mx-0 mx-[100px] rounded " >Get Started > </Link>
+               <Link href="" className="font-black text-white text-center   bg-[red] py-3 mt-1 sm:py-4 sm:mr-[520px] sm:mx-0 mx-[100px] rounded " >Get Started  </Link>
           </form>
         </div>
       </div>
